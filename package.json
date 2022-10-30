@@ -1,0 +1,42 @@
+{
+  "name": "putout-plugin-react2solid",
+  "version": "0.0.0",
+  "author": "milahu",
+  "description": "convert react components to solid components",
+  "homepage": "",
+  "main": "lib/react2solid.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {},
+  "keywords": [
+    "putout",
+    "putout-plugin",
+    "putout-plugin-convert",
+    "react",
+    "solid",
+    "solidjs",
+    "convert",
+    "transform",
+    "transpile",
+    "plugin"
+  ],
+  "devDependencies": {
+    "@putout/test": "^3.0.0",
+    "c8": "^7.5.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^10.0.0",
+    "madrun": "^8.0.1"
+  },
+  "peerDependencies": {
+    "putout": ">=20"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
